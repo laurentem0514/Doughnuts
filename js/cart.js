@@ -1,7 +1,10 @@
 //get from query-string the value for select and set it to the input value
 
 var inputHTML = function (name, value){
-  return '<div><span>' + name + '</span><input type="text" name="' + name +'" value="' + value +'"></div>';
+  return '<div>' +
+      '<span>' + name + ': </span><span>' + value + '</span>' +
+      '<input type="hidden" name="' + name +'" value="' + value +'">' +
+    '</div>';
 }
 
 var queryString = window.location.search.substr(1).split('&');
