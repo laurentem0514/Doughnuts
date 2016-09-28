@@ -18,58 +18,163 @@
     </nav>
   </header><!-- /header -->
   <main>
-    <h1>Doughnuts</h1>
+    <h1>{Doughnut: YUM};</h1>
+
+    <div class = "doughnut" id = "fruit_loops">
+      <article>
+      <h3>Fruit LOOPS</h3>
+        <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
+          <label>Input your name
+            <input list="browsers" name="myName" />
+          </label><br>
+
+          <h5>Toppings</h5>
+          <select name="select">
+            <option value="kitKat">Kitkat</option>
+            <option value="fruitLoops" selected>Fruit Loops</option>
+            <option value="none">None</option>
+          </select><br>
+
+          <h5>Amount of Toppings</h5>
+          <form>
+            <input type="radio" name="batter" value="light"> Light<br>
+            <input type="radio" name="batter" value="regular"> Regular<br>
+            <input type="radio" name="batter" value="heavy"> Heavy
+          </form><br>
+
+          <!-- <h5>Topping Amount</h5>
+          <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
+          <input id='toppingRange' type='text' size='2'><br>
+          -->
+
+          <h5>Glaze</h5>
+          <label>
+          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
+          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
+          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
+
+          <!-- <h5>Allergies and Comments</h5>
+          <textarea rows="4" cols="50">Enter Here
+          </textarea><br>
+          -->
+          <br>
+          <button type="submit">Order Now</button>
+
+        </form>
+      </article>
+    </div>
+
+        <div class = "doughnut" id = "git-kat">
+      <article>
+      <h3>GIT-Kat</h3>
+        <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
+          <label>Input your name
+            <input list="browsers" name="myName" />
+          </label><br>
+
+          <h5>Toppings</h5>
+          <select name="select">
+            <option value="kitKat">Kitkat</option>
+            <option value="fruitLoops" selected>Fruit Loops</option>
+            <option value="none">None</option>
+          </select><br>
+
+          <h5>Amount of Toppings</h5>
+          <form>
+            <input type="radio" name="batter" value="light"> Light<br>
+            <input type="radio" name="batter" value="regular"> Regular<br>
+            <input type="radio" name="batter" value="heavy"> Heavy
+          </form><br>
+
+          <!-- <h5>Topping Amount</h5>
+          <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
+          <input id='toppingRange' type='text' size='2'><br>
+          -->
+
+          <h5>Glaze</h5>
+          <label>
+          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
+          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
+          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
+
+          <!-- <h5>Allergies and Comments</h5>
+          <textarea rows="4" cols="50">Enter Here
+          </textarea><br>
+          -->
+          <br>
+          <button type="submit">Order Now</button>
+
+        </form>
+      </article>
+    </div>
+
+
+    <div class = "doughnut" id = "pumpkin-splice">
+      <article>
+      <h3>Pumpkin SPLICE</h3>
+        <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
+          <label>Input your name
+            <input list="browsers" name="myName" />
+          </label><br>
+
+          <h5>Toppings</h5>
+          <select name="select">
+            <option value="kitKat">Kitkat</option>
+            <option value="fruitLoops" selected>Fruit Loops</option>
+            <option value="none">None</option>
+          </select><br>
+
+          <h5>Amount of Toppings</h5>
+          <form>
+            <input type="radio" name="batter" value="light"> Light<br>
+            <input type="radio" name="batter" value="regular"> Regular<br>
+            <input type="radio" name="batter" value="heavy"> Heavy
+          </form><br>
+
+          <!-- <h5>Topping Amount</h5>
+          <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
+          <input id='toppingRange' type='text' size='2'><br>
+          -->
+
+          <h5>Glaze</h5>
+          <label>
+          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
+          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
+          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
+
+          <!-- <h5>Allergies and Comments</h5>
+          <textarea rows="4" cols="50">Enter Here
+          </textarea><br>
+          -->
+          <br>
+          <button type="submit">Order Now</button>
+
+        </form>
+      </article>
+    </div>
+
+
+
+
+
+
+
+
+
 
     <article>
-      <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
-        <label>Input your name
-          <input list="browsers" name="myName" />
-        </label><br>
 
-      <div id='batter'>
-        <h5>Batter</h5>
-        <form>
-          <input type="radio" name="batter" value="Old Fashion"> Old Fashion<br>
-          <input type="radio" name="batter" value="Pumpkin"> Pumpkin<br>
-          <input type="radio" name="batter" value="Chocolate"> Chocolate
-        </form><br>
-      </div>
-
-      <div id='toppings'>
-        <h5>Toppings</h5>
-        <select name="select">
-          <option value="kitKat">Kitkat</option>
-          <option value="fruitLoops" selected>Fruit Loops</option>
-          <option value="none">None</option>
-        </select><br>
-      </div>
-
-      <div id='toppingAmount'>
-        <h5>Topping Amount</h5>
-        <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
-        <input id='toppingRange' type='text' size='2'><br>
-      </div>
-
-      <div id='glaze'>
-        <h5>Glaze</h5>
-        <label>
-        <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
-        <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label>
-        <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label>
-      </div>
-
-      <div id='allergies'>
-        <h5>Allergies and Comments</h5>
-        <textarea rows="4" cols="50">Enter Here
-        </textarea><br>
-      </div>
-
-      <div id='button'>
-          <button type="submit">Order Now</button>
-      </div>
-
-      </form>
-
+   <!--  <form>
+      <input type="radio" name="batter" value="Old Fashion"> Old Fashion<br>
+      <input type="radio" name="batter" value="Pumpkin"> Pumpkin<br>
+      <input type="radio" name="batter" value="Chocolate"> Chocolate
+    </form>
+    <select name="select">
+      <option value="kitKat">Kitkat</option>
+      <option value="fruitLoops" selected>Fruit Loops</option>
+      <option value="none">None</option>
+    </select><br>
+        <button type="submit">Order Now</button> -->
     </article>
     <aside class="list-output">
 
@@ -80,3 +185,4 @@
   </footer>
 </body>
 </html>
+Contact GitHub API Training Shop Blog About
