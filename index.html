@@ -21,27 +21,27 @@
     <h1>List Maker</h1>
 
     <article>
-      <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
+      <form action="cart.html" class="list-maker-form" method="get" >
         <label>First and Last Name
           <input list="browsers" name="myName" />
         </label><br>
 
         <h5> Batter</h5>
-        <form>
+
           <input type="radio" name="batter" value="Old Fashioned"> Old Fashioned<br>
           <input type="radio" name="batter" value="Pumpkin"> Pumpkin<br>
-          <input type="radio" name="batter" value="Chocolate"> Chocolate
-        </form><br>
+          <input type="radio" name="batter" value="Chocolate"> Chocolate<br>
+
 
         <h5>Toppings</h5>
         <select name="select">
-          <option value="kitKat">Kitkat</option>
+          <option value="kitKat">Kit Kat</option>
           <option value="fruitLoops" selected>Fruit Loops</option>
           <option value="none">None</option>
         </select><br>
 
         <h5>Topping Amount</h5>
-        <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
+        <input id='toppingAmount' type='range' min='Light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
         <input id='toppingRange' type='text' size='2'><br>
 
         <h5>Glaze</h5>
