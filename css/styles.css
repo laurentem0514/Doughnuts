@@ -8,7 +8,7 @@ body {
 a {
   font-family: 'Asap', sans-serif;
   text-decoration: none;
-  color: #0000FF;
+  color: #FFFFFF;
   font-weight: 700;
 
 }
@@ -28,6 +28,10 @@ ul {
   clear: both;
 }
 
+header{
+  background-color: #03A9F4;
+}
+
 nav{
   height: 50px;
   float: right;
@@ -36,14 +40,14 @@ nav{
 h1 {
 
     font-weight: 700;
-    color: #FFA5E4;
+    color: #4CAF50;
     margin: 0px auto;
     text-align: center;
     padding: 5px;
 }
 h4 {
   text-align: center;
-  color: #FFA2E4;
+  color: #03A9F4;
   margin: 0px auto;
   padding: 10px 0 30px;
 }
@@ -75,6 +79,7 @@ h2 {
   padding: 10px;
   background-color: #FFFFFF;
   overflow: auto;
+  height: 600px;
 }
 
 aside{
@@ -87,10 +92,6 @@ aside{
 
 article {
   /*padding: 0px 50px;*/
-}
-
-.clearfix {
-  overflow: auto;
 }
 
 button{
@@ -128,6 +129,9 @@ footer {
   clear: both;
   margin: 0 auto;
   position: bottom;
+  background-color: #03A9F4 ;
+  text-align: center;
+  color: #FFFFFF;
 }
 h5 {
   padding: 10px;
