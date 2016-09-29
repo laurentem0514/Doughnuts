@@ -23,13 +23,14 @@
       <h4>$('you').append('doughnuts')</h4>
 
     <div class = "doughnut" id = "fruit_loops">
+      <form action="cart.html" class="list-maker-form" method="post" >
       <article>
+
       <h3>Fruit LOOPS</h3>
       <img src="images/fruit_loop_dougnut.png" alt="fruit-loop" width="220px">
-        <form action="cart.html" class="list-maker-form" method="post" >
 
           <legend>Toppings</legend>
-          <select name="select">
+          <select name="selectFl">
             <option value="kitKat">Kitkat</option>
             <option value="fruitLoops" selected>Fruit Loops</option>
             <option value="none">None</option>
@@ -37,9 +38,9 @@
           <br><br>
 
           <legend>Amount of Toppings</legend>
-            <input type="radio" name="batter" value="light"> Light<br>
-            <input type="radio" name="batter" value="regular"> Regular<br>
-            <input type="radio" name="batter" value="heavy"> Heavy
+            <input type="radio" name="batterFl" value="light"> Light<br>
+            <input type="radio" name="batterFl" value="regular"> Regular<br>
+            <input type="radio" name="batterFl" value="heavy"> Heavy
             <br><br>
 
           <!-- <h5>Topping Amount</h5>
@@ -48,20 +49,16 @@
           -->
 
           <legend>Glaze</legend>
-          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
+          <input type="checkbox" name="cbox1Fl" value="glaze1"> Oringinal</label><br>
+          <input type="checkbox" name="cbox2Fl" value="glaze2"> <label for="cbox2">Chocolate</label><br>
+          <input type="checkbox" name="cbox3Fl" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
 
           <br>
 
           <legend>Quantity</legend>
-          <input type="number" name="quantity" value="qnumber">
+          <input type="number" name="quantityFl" value="qnumber">
 
-          <br>
 
-          <button type="submit">Order Now</button>
-
-        </form>
       </article>
     </div>
 
@@ -69,10 +66,9 @@
       <article>
       <h3>GIT-Kat</h3>
       <img src="images/kitkat_dougnut.png" alt="git-kit" width="220px">
-        <form action="cart.html" class="list-maker-form" method="post" >
 
           <legend>Toppings</legend>
-          <select name="select">
+          <select name="selectGk">
             <option value="kitKat">Kitkat</option>
             <option value="fruitLoops" selected>Fruit Loops</option>
             <option value="none">None</option>
@@ -80,9 +76,9 @@
           <br><br>
 
           <legend>Amount of Toppings</legend>
-            <input type="radio" name="batter" value="light"> Light<br>
-            <input type="radio" name="batter" value="regular"> Regular<br>
-            <input type="radio" name="batter" value="heavy"> Heavy
+            <input type="radio" name="batterGk" value="light"> Light<br>
+            <input type="radio" name="batterGk" value="regular"> Regular<br>
+            <input type="radio" name="batterGk" value="heavy"> Heavy
           <br><br>
 
           <!-- <h5>Topping Amount</h5>
@@ -91,20 +87,15 @@
           -->
 
           <legend>Glaze</legend>
-          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
+          <input type="checkbox" name="cbox1Gk" value="glaze1"> Oringinal</label><br>
+          <input type="checkbox" name="cbox2Gk" value="glaze2"> <label for="cbox2">Chocolate</label><br>
+          <input type="checkbox" name="cbox3Gk" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
 
           <br>
 
           <legend>Quantity</legend>
-          <input type="number" name="quantity" value="qnumber">
+          <input type="number" name="quantityGk" value="qnumber">
 
-          <br>
-
-          <button type="submit">Order Now</button>
-
-        </form>
       </article>
     </div>
 
@@ -113,10 +104,9 @@
       <article>
       <h3>Pumpkin SPLICE</h3>
       <img src="images/pumpkin_spice_d.png" alt="pumpkin" width="220px">
-        <form action="cart.html" class="list-maker-form" method="post" >
 
           <legend>Toppings</legend>
-          <select name="select">
+          <select name="selectPs">
             <option value="kitKat">Kitkat</option>
             <option value="fruitLoops" selected>Fruit Loops</option>
             <option value="none">None</option>
@@ -124,36 +114,41 @@
           <br><br>
 
           <legend>Amount of Toppings</legend>
-            <input type="radio" name="batter" value="light"> Light<br>
-            <input type="radio" name="batter" value="regular"> Regular<br>
-            <input type="radio" name="batter" value="heavy"> Heavy
+            <input type="radio" name="batterPs" value="light"> Light<br>
+            <input type="radio" name="batterPs" value="regular"> Regular<br>
+            <input type="radio" name="batterPs" value="heavy"> Heavy
           <br><br>
-
-          <!-- <h5>Topping Amount</h5>
-          <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
-          <input id='toppingRange' type='text' size='2'><br>
-          -->
-
           <legend>Glaze</legend>
-          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
+          <input type="checkbox" name="cbox1Ps" value="glaze1"> Oringinal</label><br>
+          <input type="checkbox" name="cbox2Ps" value="glaze2"> <label for="cbox2">Chocolate</label><br>
+          <input type="checkbox" name="cbox3Ps" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
 
           <br>
 
           <legend>Quantity</legend>
-          <input type="number" name="quantity" value="qnumber">
+          <input type="number" name="quantityPs" value="qnumber">
 
           <br>
 
-          <button type="submit">Order Now</button>
 
-        </form>
+
+<br>
+
+
+
+
+
+
       </article>
+
+
+
+
+
     </div>
 
-
-
+<button type="submit">Order Now</button>
+</form>
 
 
 

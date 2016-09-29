@@ -1,14 +1,27 @@
 body {
-<<<<<<< HEAD
-  background-color: #ff9960;
+  background-color: #FFF2E4;
   margin: 0;
   padding: 0;
+  font-family: 'Asap', sans-serif;
+}
+
+a {
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+  color: #0000FF;
+  font-weight: 700;
+
+}
+
+a:hover {
+  color: #FFDD00;
 }
 
 li {
   display: inline-block;
   float: right;
   padding: 0 20px;
+
 }
 
 ul {
@@ -17,24 +30,40 @@ ul {
 
 nav{
   height: 50px;
+  margin: 10px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 700;
+    color: #FFA5E4;
+    margin: 0px auto;
+}
+h4 {
+  display: inline-block;
+  color: #FFA2E4;
+  margin: 0px auto;
 }
 
 
+img {
+  display: inline-block;
+  margin: 10px;
+}
+
+.image {
+
+}
 
 
-#doughnut {
-  background-color: white;
-=======
-  background-color: #FFF2E4;
+main {
+  width: 80%;
+  margin: 0 auto;
 }
 
 h2 {
   color: #D0021B;
-  font-weight: bold;
-}
-
-nav {
-
+  font-weight: 700;
 }
 
 .doughnut{
@@ -42,18 +71,21 @@ nav {
   margin: 5px;
   float: left;
   width: 30%;
-
+  border: 3px solid #FFD5E4;
+  padding: 10px;
+  background-color: #FFFFFF;
 }
 
-#fruit_loops{
-
+article {
+  /*padding: 0px 50px;*/
 }
 
-#git-kat{
 
+/*cart page*/
+.information {
+  padding: 50px;
+}
+p {
+  padding: 0 50px;
 }
 
-#pumpkin-splice{
-
->>>>>>> 3d7733bbb1e4bc94199fee7a56867912b7c75564
-}
