@@ -35,23 +35,24 @@ nav{
 
 h1 {
 
-    display: inline-block;
     font-weight: 700;
     color: #FFA5E4;
     margin: 0px auto;
+    text-align: center;
+    padding: 5px;
 }
 h4 {
-  display: inline-block;
+  text-align: center;
   color: #FFA2E4;
   margin: 0px auto;
-  font-weight: 700;
-  color: #FFA5E4;
+  padding: 10px 0 30px;
 }
 
 
 img {
   display: inline-block;
   margin: 10px;
+  position: relative;
 }
 
 .image {
@@ -83,11 +84,22 @@ article {
   /*padding: 0px 50px;*/
 }
 
+
 /*cart page*/
 .information {
   padding: 50px;
+  font-family: 'Asap', sans-serif;
 }
 p {
   padding: 0 50px;
-
-
+}
+footer {
+  clear: both;
+  margin: 0 auto;
+  position: bottom;
+}
+h5 {
+  padding: 10px;
+  margin: 0px auto;
+  text-align: center;
+}
