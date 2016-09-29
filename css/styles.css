@@ -70,14 +70,36 @@ h2 {
   display: inline-block;
   margin: 5px;
   float: left;
-  width: 30%;
+  width: 25%;
   border: 3px solid #FFD5E4;
   padding: 10px;
   background-color: #FFFFFF;
+  overflow: auto;
+}
+
+aside{
+  display: inline-block;
+  float: right;
+  width: 19%;
+  padding: 10px, 0, 0, 5px;
+  margin: 100px 0 0 10px;
 }
 
 article {
   /*padding: 0px 50px;*/
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #FFD5E4;
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
 }
 
 
@@ -98,7 +120,6 @@ article {
 
 
 
-}
 p {
   display: inline-block;
   padding: 0 10px;

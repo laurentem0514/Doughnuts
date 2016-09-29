@@ -29,11 +29,3 @@ for (var i = 0; i < queryString.length; i++) {
 
 
 $('form').append('<button>Submit</button>');
-
-function show() {
-        document.getElementById("write2").innerHTML = batter;
-    };
-
-
-    show();
-
