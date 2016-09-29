@@ -1,9 +1,32 @@
 body {
-    background-color: #FFF2E4;
+  background-color: #FFF2E4;
 }
 
-
 h2 {
-              color: #D0021B;
-              font-weight: bold;
+  color: #D0021B;
+  font-weight: bold;
+}
+
+nav {
+
+}
+
+.doughnut{
+  display: inline-block;
+  margin: 5px;
+  float: left;
+  width: 30%;
+
+}
+
+#fruit_loops{
+
+}
+
+#git-kat{
+
+}
+
+#pumpkin-splice{
+
 }
