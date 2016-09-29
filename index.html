@@ -28,23 +28,43 @@
 
     <h3>Fruit LOOPS</h3>
     <img class="image" src="images/fruit_loop_dougnut.png" alt="fruit-loop" width="220px">
-      <article>
+
+     <h4>Price $2.50</h4>
+
+    </div>
+
+    <div class = "doughnut" id = "git-kat">
+    <h3>GIT-Kat</h3>
+    <img class="image" src="images/kitkat_dougnut.png" alt="git-kit" width="220px">
+
+    <h4>Price: $2.50</h4>
+
+    </div>
 
 
-        <form action="cart.html" class="list-maker-form" method="post" >
+    <div class = "doughnut" id = "pumpkin-splice">
+    <h3>Pumpkin SPLICE</h3>
+    <img class="image" src="images/pumpkin_spice_d.png" alt="pumpkin" width="220px">
 
-          <legend>Toppings</legend>
-          <select name="selectFl">
-            <option value="kitKat">Kitkat</option>
-            <option value="fruitLoops" selected>Fruit Loops</option>
-            <option value="none">None</option>
+    <h4>Price: $2.50</h4>
+
+    </div>
+
+    <div id="form">
+    <form action="cart.html" class="list-maker-form" method="get" >
+
+          <legend>Doughnuts</legend>
+          <select name="Doughnuts">
+            <option value="KitKat">Git-kat</option>
+            <option value="FruitLoops">Fruit Loops</option>
+            <option value="Pumpkin Splice">Pumpkin Splice</option>
           </select>
           <br><br>
 
           <legend>Amount of Toppings</legend>
-            <input type="radio" name="batterFl" value="light"> Light<br>
-            <input type="radio" name="batterFl" value="regular"> Regular<br>
-            <input type="radio" name="batterFl" value="heavy"> Heavy
+            <input type="radio" name="Topping" value="light"> Light<br>
+            <input type="radio" name="Toppings" value="regular"> Regular<br>
+            <input type="radio" name="Toppings" value="heavy"> Heavy
             <br><br>
 
           <!-- <h5>Topping Amount</h5>
@@ -53,106 +73,19 @@
           -->
 
           <legend>Glaze</legend>
-          <input type="checkbox" name="cbox1Fl" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" name="cbox2Fl" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" name="cbox3Fl" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
+          <input type="checkbox" name="Glaze" value="Original"> Original</label><br>
+          <input type="checkbox" name="Glaze" value="Chocolate"> <label for="Glaze">Chocolate</label><br>
+          <input type="checkbox" name="Glaze" value="Cinnamon"> <label for="Glaze">Cinnamon</label><br>
 
           <br>
 
           <legend>Quantity</legend>
-          <input type="number" name="quantityFl" value="qnumber">
+          <input type="number" name="quantity" value="number">
 
 
-      </article>
+      <button type="submit">Order Now</button>
+    </form>
     </div>
-
-        <div class = "doughnut" id = "git-kat">
-        <h3>GIT-Kat</h3>
-        <img class="image" src="images/kitkat_dougnut.png" alt="git-kit" width="220px">
-      <article>
-
-          <legend>Toppings</legend>
-          <select name="selectGk">
-            <option value="kitKat">Kitkat</option>
-            <option value="fruitLoops" selected>Fruit Loops</option>
-            <option value="none">None</option>
-          </select>
-          <br><br>
-
-          <legend>Amount of Toppings</legend>
-            <input type="radio" name="batterGk" value="light"> Light<br>
-            <input type="radio" name="batterGk" value="regular"> Regular<br>
-            <input type="radio" name="batterGk" value="heavy"> Heavy
-          <br><br>
-
-          <!-- <h5>Topping Amount</h5>
-          <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
-          <input id='toppingRange' type='text' size='2'><br>
-          -->
-
-          <legend>Glaze</legend>
-          <input type="checkbox" name="cbox1Gk" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" name="cbox2Gk" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" name="cbox3Gk" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
-
-          <br>
-
-          <legend>Quantity</legend>
-          <input type="number" name="quantityGk" value="qnumber">
-
-      </article>
-    </div>
-
-
-    <div class = "doughnut" id = "pumpkin-splice">
-    <h3>Pumpkin SPLICE</h3>
-    <img class="image" src="images/pumpkin_spice_d.png" alt="pumpkin" width="220px">
-      <article>
-
-          <legend>Toppings</legend>
-          <select name="selectPs">
-            <option value="kitKat">Kitkat</option>
-            <option value="fruitLoops" selected>Fruit Loops</option>
-            <option value="none">None</option>
-          </select>
-          <br><br>
-
-          <legend>Amount of Toppings</legend>
-            <input type="radio" name="batterPs" value="light"> Light<br>
-            <input type="radio" name="batterPs" value="regular"> Regular<br>
-            <input type="radio" name="batterPs" value="heavy"> Heavy
-          <br><br>
-          <legend>Glaze</legend>
-          <input type="checkbox" name="cbox1Ps" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" name="cbox2Ps" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" name="cbox3Ps" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
-
-          <br>
-
-          <legend>Quantity</legend>
-          <input type="number" name="quantityPs" value="qnumber">
-
-          <br>
-
-
-
-<br>
-
-
-
-
-
-
-      </article>
-
-
-
-
-
-    </div>
-
-<button type="submit">Order Now</button>
-</form>
 
 
 
