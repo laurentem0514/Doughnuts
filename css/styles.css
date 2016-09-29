@@ -30,7 +30,7 @@ ul {
 
 nav{
   height: 50px;
-  margin: 10px;
+  float: right;
 }
 
 h1 {
@@ -49,14 +49,10 @@ h4 {
 }
 
 
-img {
+.image {
   display: inline-block;
   margin: 10px;
   position: relative;
-}
-
-.image {
-
 }
 
 
@@ -87,11 +83,25 @@ article {
 
 /*cart page*/
 .information {
-  padding: 50px;
+  padding: 10%;
   font-family: 'Asap', sans-serif;
 }
+
+
+.border {
+    display: inline-block;
+    padding: 20%;
+    border: 5px solid #FFD5E4;
+
+}
+
+
+
+
+}
 p {
-  padding: 0 50px;
+  display: inline-block;
+  padding: 0 10px;
 }
 footer {
   clear: both;
@@ -101,5 +111,5 @@ footer {
 h5 {
   padding: 10px;
   margin: 0px auto;
-  text-align: center;
+  text-align: left;
 }
