@@ -34,7 +34,7 @@ nav{
 }
 
 h1 {
-<<<<<<< HEAD
+
     display: inline-block;
     font-weight: 700;
     color: #FFA5E4;
@@ -44,10 +44,8 @@ h4 {
   display: inline-block;
   color: #FFA2E4;
   margin: 0px auto;
-=======
-    font-weight: 700;
-    color: #FFA5E4;
->>>>>>> 0003d75030d57752a1db5b3c318b6a5047b23b73
+  font-weight: 700;
+  color: #FFA5E4;
 }
 
 
@@ -83,9 +81,7 @@ h2 {
 
 article {
   /*padding: 0px 50px;*/
-<<<<<<< HEAD
 }
-
 
 /*cart page*/
 .information {
@@ -93,7 +89,5 @@ article {
 }
 p {
   padding: 0 50px;
-=======
->>>>>>> 0003d75030d57752a1db5b3c318b6a5047b23b73
-}
+
 
