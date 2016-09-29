@@ -1,4 +1,30 @@
 body {
+<<<<<<< HEAD
+  background-color: #ff9960;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  float: right;
+  padding: 0 20px;
+}
+
+ul {
+  clear: both;
+}
+
+nav{
+  height: 50px;
+}
+
+
+
+
+#doughnut {
+  background-color: white;
+=======
   background-color: #FFF2E4;
 }
 
@@ -29,4 +55,5 @@ nav {
 
 #pumpkin-splice{
 
+>>>>>>> 3d7733bbb1e4bc94199fee7a56867912b7c75564
 }
