@@ -6,178 +6,73 @@
   <title>Doughnuts</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
   <script src="js/app.js"></script>
 </head>
 <body>
   <header id="header" class="">
+  <img src="images/logo.png" alt="Doughnut Logo">
     <nav>
       <ul>
-        <li><a href="/" title="">home</a></li>
-        <li><a href="" title="">link</a></li>
-        <li><a href="" title="">about</a></li>
+        <li><a href="#" title="">home</a></li>
+        <li><a href="#" title="">link</a></li>
+        <li><a href="#" title="">about</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <h1>(var Doughnut = "YUM");</h1>
       <h4>$('you').append('doughnuts')</h4>
-
     <div class = "doughnut" id = "fruit_loops">
-      <article>
-      <h3>Fruit LOOPS</h3>
-        <form action="cart.html" class="list-maker-form" method="get" >
-
-          <legend>Toppings</legend>
-          <select name="select">
-            <option value="kitKat">Kitkat</option>
-            <option value="fruitLoops" selected>Fruit Loops</option>
-            <option value="none">None</option>
-          </select>
-          <br><br>
-
-          <legend>Amount of Toppings</legend>
-            <input type="radio" name="batter" value="light"> Light<br>
-            <input type="radio" name="batter" value="regular"> Regular<br>
-            <input type="radio" name="batter" value="heavy"> Heavy
-            <br><br>
-
-          <!-- <h5>Topping Amount</h5>
-          <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
-          <input id='toppingRange' type='text' size='2'><br>
-          -->
-
-          <legend>Glaze</legend>
-          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
-
-          <br>
-
-          <legend>Quantity</legend>
-          <input type="number" name="quantity" value="qnumber">
-
-          <br>
-
-          <button type="submit">Order Now</button>
-
-
-      </article>
+    <h3>Fruit LOOPS</h3>
+    <img class="image" src="images/FruitLoops.png" alt="fruit-loop" width="220px">
+     <h4>Price $2.50</h4>
+     <p>Fruity, loopy, round, and tasty! You like cereal? Eat this! You like colorful stuff? Eat this!</p>
     </div>
-
-        <div class = "doughnut" id = "git-kat">
-      <article>
-      <h3>GIT-Kat</h3>
-
-
-          <legend>Toppings</legend>
-          <select name="select">
-            <option value="kitKat">Kitkat</option>
-            <option value="fruitLoops" selected>Fruit Loops</option>
-            <option value="none">None</option>
-          </select>
-          <br><br>
-
-          <legend>Amount of Toppings</legend>
-            <input type="radio" name="batter" value="light"> Light<br>
-            <input type="radio" name="batter" value="regular"> Regular<br>
-            <input type="radio" name="batter" value="heavy"> Heavy
-          <br><br>
-
-          <!-- <h5>Topping Amount</h5>
-          <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
-          <input id='toppingRange' type='text' size='2'><br>
-          -->
-
-          <legend>Glaze</legend>
-          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
-
-          <br>
-
-          <legend>Quantity</legend>
-          <input type="number" name="quantity" value="qnumber">
-
-          <br>
-
-          <button type="submit">Order Now</button>
-
-
-      </article>
+    <div class = "doughnut" id = "git-kat">
+    <h3>GIT-Kat</h3>
+    <img class="image" src="images/KitKat.png" alt="git-kit" width="220px">
+    <h4>Price: $2.50</h4>
+    <p>Smooth and velvety chocolate doughnut topped with a delicious kit-kat bar! Eat Eat EAT THIS!</p>
     </div>
-
-
     <div class = "doughnut" id = "pumpkin-splice">
-      <article>
-      <h3>Pumpkin SPLICE</h3>
-
-
-          <legend>Toppings</legend>
-          <select name="select">
-            <option value="kitKat">Kitkat</option>
-            <option value="fruitLoops" selected>Fruit Loops</option>
-            <option value="none">None</option>
+    <h3>Pumpkin SPLICE</h3>
+    <img class="image" src="images/PumpkinSplice.png" alt="pumpkin" width="220px">
+    <h4>Price: $2.50</h4>
+    <p>Sophisticated cinnamon glaze. YOu like pumpkins? Eat this! You like the taste of autumn? Eat this!</p>
+    </div>
+    </main>
+    <aside id="form">
+    <form action="cart.html" class="list-maker-form" method="get" >
+          <legend>Doughnuts</legend>
+          <select name="Doughnut">
+            <option value="KitKat">Git-kat</option>
+            <option value="FruitLoops">Fruit Loops</option>
+            <option value="PumpkinSplice">Pumpkin Splice</option>
           </select>
           <br><br>
-
           <legend>Amount of Toppings</legend>
-            <input type="radio" name="batter" value="light"> Light<br>
-            <input type="radio" name="batter" value="regular"> Regular<br>
-            <input type="radio" name="batter" value="heavy"> Heavy
-          <br><br>
-
+            <input type="radio" name="Topping" value="Light"> Light<br>
+            <input type="radio" name="Topping" value="Regular"> Regular<br>
+            <input type="radio" name="Topping" value="Heavy"> Heavy
+            <br><br>
           <!-- <h5>Topping Amount</h5>
           <input id='toppingAmount' type='range' min='light' max='Heavy' step='50' onchange='printValue("toppingAmount","toppingRange")'><br>
           <input id='toppingRange' type='text' size='2'><br>
           -->
-
           <legend>Glaze</legend>
-          <input type="checkbox" id="cbox1" value="glaze1"> Oringinal</label><br>
-          <input type="checkbox" id="cbox2" value="glaze2"> <label for="cbox2">Chocolate</label><br>
-          <input type="checkbox" id="cbox3" value="glaze3"> <label for="cbox3">Cinnamon</label><br>
-
+          <input type="checkbox" name="Glaze" value="Original"> Original</label><br>
+          <input type="checkbox" name="Glaze" value="Chocolate"> <label for="Glaze">Chocolate</label><br>
+          <input type="checkbox" name="Glaze" value="Cinnamon"> <label for="Glaze">Cinnamon</label><br>
           <br>
-
           <legend>Quantity</legend>
-          <input type="number" name="quantity" value="qnumber">
-
-          <br>
-
-          <button type="submit">Order Now</button>
-
-        </form>
-      </article>
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <article>
-
-   <!--  <form>
-      <input type="radio" name="batter" value="Old Fashion"> Old Fashion<br>
-      <input type="radio" name="batter" value="Pumpkin"> Pumpkin<br>
-      <input type="radio" name="batter" value="Chocolate"> Chocolate
-    </form>
-    <select name="select">
-      <option value="kitKat">Kitkat</option>
-      <option value="fruitLoops" selected>Fruit Loops</option>
-      <option value="none">None</option>
-    </select><br>
-        <button type="submit">Order Now</button> -->
-    </article>
-    <aside class="list-output">
-
+          <input type="number" name="Quantity" value="number">
+          <br><br>
+      <button type="submit">Order Now</button>
+      </form>
     </aside>
-  </main>
   <footer>
-    <h5></h5>
+    <h5>&copy; Doughtnut Crew</h5>
   </footer>
 </body>
 </html>

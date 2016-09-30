@@ -1,4 +1,18 @@
-//get from query-string the value for select and set it to the input value
+function toObject(arr) {
+  var rv = {};
+
+  for (var i = 0; i < arr.length; i++){
+    // k=v
+    var parts = arr[i].split('=');
+    if (parts.length === 2){
+      var key = parts[0];
+      var value = parts[1];
+      rv[key] = value;
+    }
+  }
+
+  return rv;
+}
 
 var inputHTML = function (name, value){
   return '<div>' +
@@ -10,20 +24,22 @@ var inputHTML = function (name, value){
 var queryString = window.location.search.substr(1).split('&');
 
 
-for (var i = 0; i < queryString.length; i++) {
-  if (queryString[i]){
-     var parts = queryString[i].split('=');
+var myDoughnut = toObject(queryString);
 
-     if (parts.length === 2){
-      var key = parts[0];
-      var value = parts[1];
-      //<input type="text" name="select" value="">
+var doughnut = myDoughnut['Doughnut'];
 
-      $('form').append($(inputHTML(key, value)));
-     }
+var toppingAmount = myDoughnut['Topping'];
 
+var glaze = myDoughnut['Glaze'];
 
-  }
-}
+var quantity = myDoughnut['Quantity'];
 
-$('form').append('<button>Submit</button>');
+$('#doughnut').attr({
+  'alt': doughnut,
+  'src': 'images/' + doughnut + '.png'
+});
+
+ for (var key in myDoughnut){
+  $("#review").append($(inputHTML(key, myDoughnut[key])));
+ }
+

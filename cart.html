@@ -4,17 +4,20 @@
   <title>Checkout</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>HTML Forms</title>
+  <title>Check out</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <script src="js/app.js"></script>
 
 </head>
 
+<body>
+
  <header id="header" class="">
+ <img src="images/logo.png" alt="Doughnut Logo">
     <nav>
       <ul>
-        <li><a href="/" title="">home</a></li>
+        <li><a href="" title="">home</a></li>
         <li><a href="" title="">link</a></li>
         <li><a href="" title="">about</a></li>
       </ul>
@@ -23,10 +26,21 @@
 
   <h1>REVIEW YOUR ORDER</h1>
 
+
   <form action="http://localhost:3000/showForm" method="post" accept-charset="utf-8">
 
+
+
   <article class="information">
-  <h3>Information</h3>
+    <div class="border">
+
+      <div id= "review">
+        <h3 id="creation">My Delicious Creation</h3>
+        <img id="doughnut" src="" alt="">
+      </div>
+
+
+      <h3 id="info">Customer Information</h3>
     <label>First Name
       <input type="text" name="fName" />
     </label>
@@ -51,19 +65,46 @@
     <label>Email
       <input type="text" name="email" />
     </label><br>
-
+      <br><br>
+    <legend>Billing Information</legend>
+    <label>First Name
+      <input type="text" name="cardfName" />
+    </label>
+    <label>Last Name
+      <input type="text" name="cardlName" />
+    </label><br>
+     <label>Card #
+      <input type="text" name="creditCard" />
+    </label><br>
+     <label>Expiration
+      <input type="text" name="expiration" />
+    </label>
+     <label>CVC
+      <input type="text" name="cVC" />
+    </label>
+    <label>Zip
+      <input type="text" name="zip" />
+    </label><br>
 
 
     <h5>Allergies and Comments</h5>
           <textarea rows="5" cols="50">Enter Here
           </textarea><br>
 
+          <button type="submit">Place Order</button>
+    </form>
+    </div>
   </article>
 
-  </form>
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
-  <script src="js/cart.js"></script>
+
+
+  <footer>
+    <h5>&copy; Doughtnut Crew</h5>
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>

@@ -1,9 +1,141 @@
 body {
-    background-color: #FFF2E4;
+  background-color: #FFF2E4;
+  margin: 0;
+  padding: 0;
+  font-family: 'Asap', sans-serif;
+}
+
+a {
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
+
+}
+
+a:hover {
+  color: #FFDD00;
+}
+
+li {
+  display: inline-block;
+  float: right;
+  padding: 0 20px;
+
+}
+
+ul {
+  clear: both;
+}
+
+header{
+  background-color: #03A9F4;
+}
+
+nav{
+  height: 50px;
+  float: right;
+}
+
+h1 {
+
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px;
+}
+h4 {
+  text-align: center;
+  color: #03A9F4;
+  margin: 0px auto;
+  padding: 10px 0 30px;
 }
 
 
+.image {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 h2 {
-              color: #D0021B;
-              font-weight: bold;
+  color: #D0021B;
+  font-weight: 700;
+}
+
+.doughnut{
+  display: inline-block;
+  margin: 5px;
+  float: left;
+  width: 25%;
+  border: 3px solid #FFD5E4;
+  padding: 10px;
+  background-color: #FFFFFF;
+  overflow: auto;
+  height: 600px;
+}
+
+aside{
+  display: inline-block;
+  float: right;
+  width: 19%;
+  padding: 10px, 0, 0, 5px;
+  margin: 100px 0 0 10px;
+}
+
+
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #FFD5E4;
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+}
+
+/*cart page*/
+.information {
+  padding: 10px;
+  font-family: 'Asap', sans-serif;
+}
+
+#creation {
+  text-align: center;
+}
+
+#info {
+  text-align: center;
+}
+
+.border {
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid #FFD5E4;
+
+}
+
+p {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer {
+  clear: both;
+  margin: 0 auto;
+  position: bottom;
+  background-color: #03A9F4 ;
+  text-align: center;
+  color: #FFFFFF;
+}
+h5 {
+  padding: 10px;
+  margin: 0px auto;
+  text-align: left;
 }
