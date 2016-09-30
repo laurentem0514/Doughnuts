@@ -28,11 +28,6 @@ var myDoughnut = toObject(queryString);
 
 var doughnut = myDoughnut['Doughnut'];
 
-var toppingAmount = myDoughnut['Topping'];
-
-var glaze = myDoughnut['Glaze'];
-
-var quantity = myDoughnut['Quantity'];
 
 $('#doughnut').attr({
   'alt': doughnut,

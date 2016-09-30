@@ -104,13 +104,6 @@ button{
 .information {
   padding: 10px;
   font-family: 'Asap', sans-serif;
-}
-
-#creation {
-  text-align: center;
-}
-
-#info {
   text-align: center;
 }
 
@@ -121,10 +114,15 @@ button{
 
 }
 
+.customer-form{
+  text-align: left;
+}
+
 p {
   display: inline-block;
   padding: 0 10px;
 }
+
 
 footer {
   clear: both;
